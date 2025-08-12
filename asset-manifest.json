@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-movie-apps/static/css/main.92d3105c.css",
+    "main.js": "/react-movie-apps/static/js/main.6c64e60e.js",
+    "static/media/mi.ico": "/react-movie-apps/static/media/mi.3976331783fc661ea902.ico",
+    "index.html": "/react-movie-apps/index.html",
+    "main.92d3105c.css.map": "/react-movie-apps/static/css/main.92d3105c.css.map",
+    "main.6c64e60e.js.map": "/react-movie-apps/static/js/main.6c64e60e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92d3105c.css",
+    "static/js/main.6c64e60e.js"
+  ]
+}
