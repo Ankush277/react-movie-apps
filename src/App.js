@@ -102,7 +102,7 @@ function App() {
       Your <br></br>Movies
       </AppNameContainer>
       <SearchBox>
-      <SearchIcon src="/search-icon.svg" />
+      <SearchIcon src={process.env.PUBLIC_URL + "/search-icon.svg"} />
       <SearchInput placeholder="Search Movie"
       value={searchQuery} 
       onChange={onTextChange} />
@@ -114,7 +114,8 @@ function App() {
       onMovieSelect={onMovieSelect}/>}
       <MovieListContainer>
         {movieList?.length?movieList.map((movie, index)=><MovieComponent key={index} movie={movie} onMovieSelect={onMovieSelect} />)
-        : <Placeholder src="/file.svg"/> }
+        : <Placeholder src={process.env.PUBLIC_URL + "/file.svg"} />
+
         
       </MovieListContainer>
       </div>

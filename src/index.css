@@ -1,6 +1,15 @@
+/* Reset & base styles */
 body {
   margin: 0;
-  font-family: 
+  font-family: 'Josefin Sans', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional utility class for Josefin Sans font */
 .josefin-sans {
   font-family: 'Josefin Sans', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-optical-sizing: auto;
@@ -10,9 +19,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-}
-
+/* Code block styles */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
